@@ -1,0 +1,31 @@
+CHAIN IF WEIGHT #-1
+~InParty("L#XIK")
+InParty("L#BET")
+!StateCheck("L#XIK",CD_STATE_NOTVALID)
+!StateCheck("L#BET",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("L#XIKBETHANY","GLOBAL",0)~ THEN L#XIKB XIK-BETHANY
+@0
+DO ~SetGlobal("L#XIKBETHANY","GLOBAL",1)~
+== L#BETB @1
+== L#BETB @2
+== L#XIKB @3
+== L#BETB @4
+EXIT
+
+CHAIN IF WEIGHT #-1
+~InParty("L#XIK")
+InParty("L#BET")
+!StateCheck("L#XIK",CD_STATE_NOTVALID)
+!StateCheck("L#BET",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("L#XIKBETHANY","GLOBAL",1)~ THEN L#XIKB XIK-BETHANY2
+@5
+DO ~SetGlobal("L#XIKBETHANY","GLOBAL",2)~
+== L#XIKB @6
+== L#XIKB @7
+== L#BETB @8
+== L#XIKB @9
+EXIT

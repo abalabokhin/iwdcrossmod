@@ -7,10 +7,10 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY ~mod_array~ BEGIN
 
 //  ~0 Mod Name~, ~1 Author~, ~2 Short Name~, ~3 tp2~, ~4 IWD File~, ~5 IWD comp#~, ~6  HoW File~, ~7 HoW comp#~, ~8 rc iwd~, ~9 RC HoW~ => ~-1~ // Comments
   ~Athanasios~, ~The Artisan~, ~athanasios~, ~athanasiosnpc/athanasiosnpc.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // Missing all banters?
+  ~Bethany~, ~Lava~, ~bethany~, ~bethany/bethany.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Caedriel~, ~The Artisan~, ~caedriel~, ~caedrielnpc/caedrielnpc.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // Missing all banters?
   ~Cassia~, ~Arvendor~, ~cassia~, ~cassianpc/cassianpc.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Dendjelion~, ~Lava~, ~dendjelion~, ~dendjelion/dendjelion.tp2~, ~~, ~0~, ~~, ~~, ~l#dendj~, ~~ => ~-1~ // Missing Tal’zkah
-  ~Noon~, ~Lava~, ~noon~, ~~, ~l#noon.cre~, ~~, ~~, ~~, ~~, ~~ => ~-1~ //
   ~Dusky~, ~Lava~, ~dusky~, ~dusky/dusky.tp2~, ~~, ~0~, ~~, ~~, ~l#dusky~, ~~ => ~-1~ // 
   ~Hommet~, ~Lava~, ~hommet~, ~hommet/hommet.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Ina~, ~Lava~, ~ina~, ~ina/ina.tp2~, ~~, ~0~, ~~, ~~, ~l#ina.bcs~, ~~ => ~-1~ // 
@@ -19,6 +19,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY ~mod_array~ BEGIN
   ~L’anna~, ~Lava~, ~lanna~, ~lanna/lanna.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Minerva~, ~The Artisan~, ~minerva~, ~minervanpc/minervanpc.tp2~, ~~, ~0~, ~~, ~~, ~c0mmins.bcs~, ~~ => ~-1~ // 
   ~Nirik~, ~The Artisan~, ~nirik~, ~niriknpc/niriknpc.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
+  ~Noon~, ~Lava~, ~noon~, ~~, ~l#noon~, ~~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Oak-Maw~, ~Lava~, ~oak-maw~, ~oakmaw/oakmaw.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Orra~, ~Lava~, ~orra~, ~orra/orra.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 
   ~Tal'zkah~, ~The Artisan~, ~talzkah~, ~talzkahnpc/talzkahnpc.tp2~, ~~, ~0~, ~~, ~~, ~~, ~~ => ~-1~ // 

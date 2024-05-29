@@ -1,0 +1,33 @@
+CHAIN IF WEIGHT #-1
+~IsGabber("L#BET")
+See("L#BET")
+!StateCheck("L#DUSKY",CD_STATE_NOTVALID)
+!StateCheck("L#BET",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("L#DuskyBETHANYBanter1","GLOBAL",0)~ THEN L#DUSKYB DUSKY-BETHANY-BANTER-1
+@0
+DO ~IncrementGlobal("L#DuskyBETHANYBanter1","GLOBAL",1)~
+== L#BETB @1
+== L#DUSKYB @2
+== L#BETB @3
+== L#DUSKYB @4
+== L#BETB @5
+== L#DUSKYB @6
+EXIT
+
+CHAIN IF WEIGHT #-1
+~IsGabber("L#DUSKY")
+See("L#DUSKY")
+!StateCheck(L#DUSKY,CD_STATE_NOTVALID)
+!StateCheck("L#BET",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("L#DuskyBETHANYBanter2","GLOBAL",0)~ THEN L#DUSKYB DUSKY-BETHANY-BANTER-2
+@7
+DO ~IncrementGlobal("L#DuskyBETHANYBanter2","GLOBAL",1)~
+== L#BETB @8
+== L#DUSKYB @9
+== L#BETB @10
+== L#DUSKYB @11
+EXIT

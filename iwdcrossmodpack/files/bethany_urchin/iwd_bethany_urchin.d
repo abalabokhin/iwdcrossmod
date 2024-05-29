@@ -1,0 +1,38 @@
+CHAIN IF WEIGHT #-1
+~IsGabber("L#URCHIN")
+See("L#URCHIN")
+!StateCheck("L#BET",CD_STATE_NOTVALID)
+!StateCheck("L#URCHIN",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("L#URCHINBETBanter1","GLOBAL",0)~ THEN L#BETB L#URCHINpsBETBanter1
+@0
+DO ~IncrementGlobal("L#URCHINBETBanter1","GLOBAL",1)~
+==L#URCHIB @1
+==L#BETB @2
+==L#BETB @3
+==L#URCHIB @4
+==L#BETB @5
+==L#URCHIB @6
+==L#BETB @7
+==L#URCHIB @8
+==L#BETB @9
+EXIT
+
+CHAIN IF WEIGHT #-1
+~IsGabber("L#URCHIN")
+See("L#URCHIN")
+!StateCheck("L#BET",CD_STATE_NOTVALID)
+!StateCheck("L#URCHIN",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("L#URCHINBETBanter1","GLOBAL",1)~ THEN L#BETB L#URCHINpsBETBanter2
+@10
+DO ~IncrementGlobal("L#URCHINBETBanter1","GLOBAL",2)~
+==L#URCHIB @11
+==L#BETB @12
+==L#BETB @13
+==L#URCHIB @14
+==L#BETB @15
+EXIT
+
