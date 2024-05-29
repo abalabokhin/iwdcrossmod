@@ -19,7 +19,7 @@ EXIT
 CHAIN IF WEIGHT #-1
 ~IsGabber("L#DUSKY")
 See("L#DUSKY")
-!StateCheck(L#DUSKY,CD_STATE_NOTVALID)
+!StateCheck("L#DUSKY",CD_STATE_NOTVALID)
 !StateCheck("L#BET",CD_STATE_NOTVALID)
 CombatCounter(0)
 !See([ENEMY])

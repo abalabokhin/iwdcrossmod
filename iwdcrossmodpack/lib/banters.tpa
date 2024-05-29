@@ -27,6 +27,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_banters BEGIN
   l#urchin      => l#urchib
   l#xik         => l#xikb
   l#noon        => l#noonb
+  l#bet         => l#betb
 END
 
 ACTION_PHP_EACH cd_banters AS dv => banter BEGIN
