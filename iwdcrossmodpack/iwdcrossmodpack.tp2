@@ -18,6 +18,7 @@ README ~iwdcrossmodpack/readme-iwdcrossmodpack.html~
 AUTO_TRA ~%tra_location%/%s~
 
 LANGUAGE ~English~ ~english~ ~iwdcrossmodpack/languages/english/weidu.tra~
+LANGUAGE ~Russian~ ~russian~ ~iwdcrossmodpack/languages/russian/weidu.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
