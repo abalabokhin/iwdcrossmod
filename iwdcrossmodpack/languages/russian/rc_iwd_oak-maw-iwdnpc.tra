@@ -1,21 +1,25 @@
-@0    = ~You should have made your interests in another clear, <PLAYER1>. I would have accepted it.~
-@1    = ~What do you mean by that?~
-@2    = ~I'm sorry, Holvir. Whatever you feel about me, I cannot return it.~
-@3    = ~I speak of you and Oak-Maw. Your bond appears to be something beyond that of simple comrades.~
-@4    = ~That's still... not set in stone yet.~
-@5    = ~Regardless, it would shame me if I were to be an obstacle in this. I wish you well, <PLAYER1>.~
-@6    = ~I understand, my lady.~
-@7    = ~I am not so blind to the connection you appear to be forging with Oak-Maw, <PLAYER1>.~
-@8    = ~It is more than I am willing to interfere in. I believed we held mutual interest, but it appears I was mistaken. I am sorry for wasting your time.~
-@9    = ~<PLAYER1>, I heard what you said to Oak-Maw. If you felt nothing towards me, you should have made it clearer.~
-@10   = ~I'm sorry you had to find out like this.~
-@11   = ~You're the one who misunderstood.~
-@12   = ~You're mistaken, Nella. It's you that I feel for.~
-@13   = ~I... I see.~
-@14   = ~You should've done something about this sooner, <PLAYER1>. Then it wouldn't have become a problem.~
-@15   = ~No, it's... alright. I will manage.~
-@16   = ~You should not be so careless with your words, <PLAYER1>.~
-@17   = ~I agree. I don't enjoy being led on.~
-@18   = ~You know I have very good hearing, right? It's an elven blood thing.~
-@19   = ~I believe she heard our conversation, <PLAYER1>.~
-@20   = ~Of course. I mean, I don't mind if you're going to spend time with someone else, but you didn't have to hide it from me. Not that it matters now.~
+//HOLVIR
+@0 = ~Тебе следовало бы чётче обозначать свои симпатии, <PLAYER1>. Я бы принял отказ.~
+@1 = ~О чём ты говоришь?~
+@2 = ~Прости, Холвир. Мне нечем ответить на твои чувства.~
+@3 = ~Я о тебе и Дубе-Пасти. Кажется, ваши отношения вышли за рамки дружбы.~
+@4 = ~Это ещё не решено...~
+@5 = ~В любом случае, мне будет стыдно, если я стану для вас преградой. Желаю тебе всего наилучшего, <PLAYER1>.~
+@6 = ~Я понимаю, миледи.~
+//KORIN
+@7 = ~<PLAYER1>, я не настолько слеп, чтобы не увидеть вашу с Дубом-Пастью связь.~
+@8 = ~Вы уже так близки, что мне нет смысла вмешиваться. Я думал, ты ответишь на мой интерес, но я ошибся. Прости, что отнял твоё время.~
+//NELLA
+@9 = ~<PLAYER1>, я слышала твой разговор с Дубом-Пастью. Если ты не испытываешь ко мне никаких чувств, то стоило так мне и сказать.~
+@10 = ~Мне жаль, что тебе пришлось узнать об этом вот так.~
+@11 = ~Это тебе показалось, что между нами что-то есть.~
+@12 = ~Ты ошибаешься, Нелла. Я люблю тебя.~
+@13 = ~Я... Я поняла.~
+@14 = ~Нужно было сделать что-то с этим раньше, <PLAYER1>. Тогда бы это не стало проблемой.~
+@15 = ~Нет, всё... нормально. Я это переживу.~
+@16 = ~Не стоит так разбрасываться своими словами, <PLAYER1>.~
+@17 = ~Я согласен. Мне не нравится, когда к моим чувствам относятся, как к игрушке.~
+//TERI
+@18 = ~Ты ведь знаешь, что у меня очень хороший слух? Это отличительная эльфийская черта.~
+@19 = ~Думаю, она слышала наш разговор, <PLAYER1>.~
+@20 = ~Конечно. Я не против того, что ты проводишь время с кем-то другим, но не нужно было скрывать это от меня. Хотя, теперь это уже не имеет значения.~
