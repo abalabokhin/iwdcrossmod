@@ -1,15 +1,17 @@
-@0    = ~What manner of curse has befallen you, spectre? Your very form is like air, yet something binds it here to this plane, trapped and barred from your deserved afterlife.~
-@1    = ~Your being tastes of confusion and pity, tinged with ashen brimstone of an ancient pain. But I do not think I am trapped. Am I not free to walk beside you? To pass through chamber and door as you might and to know them as vibrantly as you could?~
-@2    = ~I'd prefer it if you refrained from telling me about my own feelings and experiences, Ina. And the freedom you claim to have is an illusion. How many times can you travel along the same paths until you grow discontent and restless? Before the wellspring of new memories runs dry and your own thoughts turn bitter?~
-@3    = ~Would you not desire a reprieve from such a fate? To let go and move on while the passing is still sweet?~
-@4    = ~Tha paths I travel are not the same as before. And I feel the whole palette of tastes engraved in them, left by people that walked them... These feelings are new to me.~
-@5    = ~But... I know that I may sound confusing. And my presence here isn't exactly normal, Cassia. Know something, though: I know everything fades. Perhaps... even I will fade at some time.~
-@6    = ~Now, however, I am here. I am a part of this story, and I truly want it to end in a good way. With a sweet victory for those like <PLAYER1>. Or you.~
-@7    = ~You were a teacher in life, as I understand it, yes? Have you ever considered continuing that profession in your... current state?~
-@8    = ~Would you attend a lecture in haunted halls? Who else might take interest in such a thing? Other spirits? No. I am a different being now. And... I wouldn't want to be stuck in repetition.~
-@9    = ~But think of all that you have learned since you began your wandering! You could write a veritable encyclopedia for the benefit of all!~
-@10   = ~Yes it's true. I have seen and felt many things. But those things too are ever-changing, shifting with each time I remember the memories. And... it would be hard to give the shape to sentences... I feel these sensations, tastes. Sometimes it's hard to translate them into text.~
-@11   = ~And the sensations change. Today, I see you as you are. And I feel your presence in a specific way. But tomorrow... you may become someone new and I'm not sure if I would feel you, your heart and mind in the same way.~
-@12   = ~Don't be ridiculous. Some things change, but there matters that do not shapeshift so easily. There are constants in the world which are unchanging!~
-@13   = ~I'm... not sure. I do not know how I'm feeling about this. But... I may need a moment to ponder about this, but... thank you. I feel that your words, your encouragments come with certain... sweetness.~
-@14   = ~Think about this. You're not risking anything with giving it a thought or two.~
+//CASSIA-INA 1
+@0 = ~Какое проклятие тебя настигло, призрак? Твой образ подобен воздуху, но тебя что-то удерживает в этом мире, преграждает путь к заслуженному посмертию.~
+@1 = ~В твоем существе чувствуется привкус смятения и жалости, приправленный пепельной серой древней боли. Я не думаю, что я в ловушке. Разве я не вольна странствовать вместе с тобой? Проходить через комнаты и двери и познавать их столь же ярко, как и ты?~
+@2 = ~Я бы предпочла, чтобы ты не рассказывала мне о моих собственных чувствах и переживаниях, Ина. А свобода, о которой ты заявляешь, — это иллюзия. Сколько раз ты сможешь пройти по одним и тем же тропам, пока не почувствуешь недовольство и усталость? Когда-нибудь источник новых воспоминаний иссякнет, и тебе станут горьки свои собственные мысли.~
+@3 = ~Не хочешь ли ты избежать такой судьбы? Оставить этот мир и отправиться дальше, пока ощущения ещё сладостны?~
+@4 = ~Пути, по которым я иду, постоянно изменяются. И я ощущаю всю палитру вкусов, оставленную теми, кто прошёл по ним раньше... Эти чувства всегда будут для меня в новинку.~
+@5 = ~Я понимаю, что мои слова могут быть сложны для понимания. И мое присутствие здесь не совсем обычно... Кассия, я понимаю, что всё когда-нибудь исчезнет. Возможно… даже я в какой-то момент увяну.~
+@6 = ~Но сейчас я здесь. Я — часть этой истории, и я искренне хочу, чтобы она закончилась для всех нас сладкой победой.~
+//CASSIA-INA 2
+@7 = ~Я правильно поняла, что при жизни ты была учительницей? Ты когда-нибудь думала о том, чтобы продолжить своё дело в своём... нынешнем состоянии?~
+@8 = ~Ты бы стала посещать уроки в доме с привидениями? Кому это будет по душе — другим призракам? Нет. Теперь я другое существо, и... я бы не хотела застрять в рутине.~
+@9 = ~Но ты узнала столько всего с тех пор, как начала свои странствия! Ты могла бы написать прекрасную энциклопедию!~
+@10 = ~Да, это правда. Я многое видела и чувствовала. Но эти вещи тоже постоянно меняются, меняются с каждым разом, когда я вспоминаю о них. И... мне тяжело перенести ощущения на бумагу…~
+@11 = ~Ощущения меняются. Сегодня я вижу тебя такой. И я чувствую твоё присутствие определённым образом. Но завтра... ты будешь другой, и я не уверена, что сохраню память и ощущения, связанные с тобой, неизменными.~
+@12 = ~Не смеши меня. Не все вещи меняются так быстро. В мире есть неизменные величины!~
+@13 = ~Я в этом не уверена... Я не знаю, что я чувствую по этому поводу. Мне нужно время, чтобы поразмыслить над этим, но… спасибо. Я чувствую, что твои слова, твоё ободрения несут в себе… сладость.~
+@14 = ~Подумай об этом. Размышления ещё никому не навредили.~
