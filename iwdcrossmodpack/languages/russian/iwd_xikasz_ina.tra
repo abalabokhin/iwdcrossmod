@@ -1,10 +1,12 @@
-@0    = ~Why do you look at me this way, ghost? Speak. Or wail. Whichever you'd prefer.~
-@1    = ~I can still feel your bitter world on your robes, your skin... Bitter like charlock, dark as charcoal.~
-@2    = ~I am unsure if you want to be poetic or not, Ina, but... *sigh* I think "my world" does not deserve such words. It's bloody. It's cruel. It's like a flesh-eating disease.~
-@3    = ~Yet you consider a return...~
-@4    = ~Perhaps... I am already infected with Barovia's... bitter taste. I do not know. And please, ask me no more of it.~
-@5    = ~I believe that you would feel at home in Barovia.~
-@6    = ~Why would you think that?~
-@7    = ~There are plenty of the undead, there are creatures like yourself roaming the land. Wouldn't you like to hear their stories?~
-@8    = ~When I taste the lands, I hope to feel more than just one taste. And I am afraid that your land would be dominated by fear and grief.~
-@9    = ~I want to taste more than that...~
+//XIKASZ-INA 1
+@0 = ~Почему ты так смотришь на меня, призрак? Говори. Или завывай. Не знаю, что ты предпочитаешь.~
+@1 = ~Я всё еще чувствую твой суровый мир на твоих одеждах, на твоей коже… Он горький, как уголь, и чёрный, как уголь.~
+@2 = ~Ина, я не знаю, почему тебя пробило на поэзию, но… *вздох* Я считаю, что «мой мир» не заслуживает таких слов. Он кровавый. Жестокий. Он словно болезнь, пожирающая плоть.~
+@3 = ~Но ты хочешь вернуться…~
+@4 = ~Возможно, я уже пропитался горьким вкусом Баровии… Я не знаю. Прошу тебя, не спрашивайте меня больше об этом.~
+//XIKASZ-INA 2
+@5 = ~Я считаю, что в Баровии ты бы чувствовала себя как дома.~
+@6 = ~Почему ты так думаешь?~
+@7 = ~Там полно нежити, и по её дорогам бродят существа, подобные тебе. Разве ты не хотела бы услышать их истории?~
+@8 = ~Когда я пробую земли, я надеюсь ощутить больше одного вкуса. И я боюсь, что у твоего края будут преобладать страх и печаль.~
+@9 = ~Я хочу почувствовать что-то большее…~
