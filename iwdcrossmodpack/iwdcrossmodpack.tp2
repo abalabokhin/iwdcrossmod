@@ -11,13 +11,14 @@ ALWAYS
   
 END
 
-VERSION ~v4~ 
+VERSION ~v5~ 
 
 README ~iwdcrossmodpack/readme-iwdcrossmodpack.html~
 
 AUTO_TRA ~%tra_location%/%s~
 
 LANGUAGE ~English~ ~english~ ~iwdcrossmodpack/languages/english/weidu.tra~
+LANGUAGE ~Russian (partial translation by Apxu, Alisia and paladin84)~ ~russian~ ~iwdcrossmodpack/languages/russian/weidu.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
