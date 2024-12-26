@@ -67,14 +67,15 @@ DO ~IncrementGlobal("C0MMinCooking","GLOBAL",1)~
 == IF_FILE_EXISTS O#SEVERN IF ~IsValidForPartyDialog("O#SEVERN")~ THEN @29
 == IF_FILE_EXISTS O#SEVERN IF ~IsValidForPartyDialog("O#SEVERN") IsValidForPartyDialog("O#TERI")~ THEN @30
 == IF_FILE_EXISTS O#TERI IF ~IsValidForPartyDialog("O#TERI")~ THEN @31
+== IF_FILE_EXISTS C0ATHANJ IF ~IsValidForPartyDialog("C0ATHANJ")~ THEN @100
 == IF_FILE_EXISTS L#OMJ IF ~IsValidForPartyDialog("L#OM")~ THEN @32
 == IF_FILE_EXISTS L#DUSKYJ IF ~IsValidForPartyDialog("L#DUSKY")~ THEN @33
 == IF_FILE_EXISTS L#DUSKYJ IF ~IsValidForPartyDialog("L#DUSKY")~ THEN @34
 == IF_FILE_EXISTS L#DENDJJ IF ~IsValidForPartyDialog("L#DENDJELION")~ THEN @35
 == IF_FILE_EXISTS L#TIPJ IF ~IsValidForPartyDialog("L#TIP")~ THEN @36
+== IF_FILE_EXISTS C0NIRIKJ IF ~IsValidForPartyDialog("C0NIRIK")~ THEN @101
 == IF_FILE_EXISTS C0KARIHJ IF ~IsValidForPartyDialog("C0KARIHI")~ THEN @37
-// == IF_FILE_EXISTS C0TALZKJ IF ~IsValidForPartyDialog("C0TALZ")~ THEN ~I see my body still needs training, given its failure to purge the sickness that last night's dinner bestowed upon me.~
-// == IF_FILE_EXISTS C0RASTAJ IF ~IsValidForPartyDialog("C0RASTA")~ THEN ~I believe last night's meal may have succeeded in taking a decade or two off what years I have remaining!~
+== IF_FILE_EXISTS C0GULDJ IF ~IsValidForPartyDialog("C0GULD")~ THEN @102
 == IF_FILE_EXISTS L#URCHIJ IF ~IsValidForPartyDialog("L#URCHIN")~ THEN @38
 == IF_FILE_EXISTS L#INAJ IF ~IsValidForPartyDialog("L#INA")~ THEN @39
 == IF_FILE_EXISTS O#HOLVIR IF ~IsValidForPartyDialog("O#HOLVIR")~ THEN @40
@@ -94,6 +95,7 @@ CHAIN C0MMinJ MINERVA-COOKING2-1
 == C0MMinJ @51
 == IF_FILE_EXISTS O#HOLVIR IF ~IsValidForPartyDialog("O#HOLVIR")~ THEN @52
 == C0MMinJ @53
+== IF_FILE_EXISTS C0NIRIKJ IF ~IsValidForPartyDialog("C0NIRIK")~ THEN @103
 == IF_FILE_EXISTS O#NELLA IF ~IsValidForPartyDialog("O#NELLA")~ THEN @54
 == IF_FILE_EXISTS L#DUSKYJ IF ~IsValidForPartyDialog("L#DUSKY")~ THEN @55
 == C0MMinJ @56
@@ -118,6 +120,7 @@ CHAIN C0MMinJ MINERVA-COOKING2-2
 == IF_FILE_EXISTS L#DUSKYJ IF ~IsValidForPartyDialog("L#DUSKY")~ THEN @72
 == IF_FILE_EXISTS L#DENDJJ IF ~IsValidForPartyDialog("L#DENDJELION")~ THEN @73
 == IF_FILE_EXISTS L#TIPJ IF ~IsValidForPartyDialog("L#TIP")~ THEN @74
+== IF_FILE_EXISTS C0ATHANJ IF ~IsValidForPartyDialog("C0ATHAN")~ THEN @104
 == IF_FILE_EXISTS L#OMJ IF ~IsValidForPartyDialog("L#OM")~ THEN @75
 == IF_FILE_EXISTS O#HOLVIR IF ~IsValidForPartyDialog("O#HOLVIR")~ THEN @76
 == IF_FILE_EXISTS O#NELLA IF ~IsValidForPartyDialog("O#NELLA")~ THEN @77
@@ -125,7 +128,9 @@ CHAIN C0MMinJ MINERVA-COOKING2-2
 == IF_FILE_EXISTS O#TERI IF ~IsValidForPartyDialog("O#TERI")~ THEN @79
 == IF_FILE_EXISTS C0KARIHJ IF ~IsValidForPartyDialog("C0KARIHI")~ THEN @80
 == IF_FILE_EXISTS L#URCHIJ IF ~IsValidForPartyDialog("L#URCHIN")~ THEN @81
+== IF_FILE_EXISTS C0NIRIKJ IF ~IsValidForPartyDialog("C0NIRIK")~ THEN @105
 == IF_FILE_EXISTS L#INAJ IF ~IsValidForPartyDialog("L#INA")~ THEN @82
+== IF_FILE_EXISTS C0GULDJ IF ~IsValidForPartyDialog("C0GULD")~ THEN @106
 == IF_FILE_EXISTS C0CAEDJ IF ~IsValidForPartyDialog("C0CAED")~ THEN @83
 == C0MMinJ IF ~NumInPartyGT(2)~ THEN @84
 END
@@ -148,14 +153,16 @@ CHAIN C0MMinJ MINERVA-COOKING2-3
 == IF_FILE_EXISTS L#DUSKYJ IF ~IsValidForPartyDialog("L#DUSKY")~ THEN @72
 == IF_FILE_EXISTS L#DENDJJ IF ~IsValidForPartyDialog("L#DENDJELION")~ THEN @73
 == IF_FILE_EXISTS L#TIPJ IF ~IsValidForPartyDialog("L#TIP")~ THEN @74
+== IF_FILE_EXISTS C0ATHANJ IF ~IsValidForPartyDialog("C0ATHAN")~ THEN @104
 == IF_FILE_EXISTS L#OMJ IF ~IsValidForPartyDialog("L#OM")~ THEN @75
 == IF_FILE_EXISTS O#HOLVIR IF ~IsValidForPartyDialog("O#HOLVIR")~ THEN @76
 == IF_FILE_EXISTS O#NELLA IF ~IsValidForPartyDialog("O#NELLA")~ THEN @77
 == IF_FILE_EXISTS O#SEVERN IF ~IsValidForPartyDialog("O#SEVERN")~ THEN @78
 == IF_FILE_EXISTS O#TERI IF ~IsValidForPartyDialog("O#TERI")~ THEN @79
 == IF_FILE_EXISTS C0KARIHJ IF ~IsValidForPartyDialog("C0KARIHI")~ THEN @80
-== IF_FILE_EXISTS L#URCHIJ IF ~IsValidForPartyDialog("L#URCHIN")~ THEN @81
+== IF_FILE_EXISTS C0NIRIKJ IF ~IsValidForPartyDialog("C0NIRIK")~ THEN @105
 == IF_FILE_EXISTS L#INAJ IF ~IsValidForPartyDialog("L#INA")~ THEN @82
+== IF_FILE_EXISTS C0GULDJ IF ~IsValidForPartyDialog("C0GULD")~ THEN @106
 == IF_FILE_EXISTS C0CAEDJ IF ~IsValidForPartyDialog("C0CAED")~ THEN @83
 == C0MMinJ IF ~NumInPartyGT(2)~ THEN @98
 END
