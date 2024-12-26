@@ -1,0 +1,45 @@
+CHAIN IF WEIGHT #-1
+~IsGabber("C0NIRIK")
+!StateCheck("C0NIRIK",CD_STATE_NOTVALID)
+!StateCheck("L#URCHIN",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+Global("C0NirikUrchinBanter1","GLOBAL",0)~ THEN L#URCHIB NIRIK-URCHIN-1
+@0
+DO ~IncrementGlobal("C0NirikUrchinBanter1","GLOBAL",1)~
+== BC0NIRIK @1
+== L#URCHIB @2
+== BC0NIRIK @3
+== L#URCHIB @4
+== BC0NIRIK @5
+== L#URCHIB @6
+== BC0NIRIK @7
+== L#URCHIB @8
+== BC0NIRIK @9
+EXIT
+
+CHAIN IF WEIGHT #-1
+~IsGabber("C0NIRIK")
+!StateCheck("C0NIRIK",CD_STATE_NOTVALID)
+!StateCheck("L#URCHIN",CD_STATE_NOTVALID)
+CombatCounter(0)
+!See([ENEMY])
+AreaType(OUTDOOR)
+OR(2)
+TimeOfDay(MORNING)
+TimeOfDay(DAY)
+Global("C0NirikUrchinBanter1","GLOBAL",1)~ THEN L#URCHIB NIRIK-URCHIN-2
+@10
+DO ~IncrementGlobal("C0NirikUrchinBanter1","GLOBAL",1)~
+== BC0NIRIK @11
+== L#URCHIB @12
+== BC0NIRIK @13
+== L#URCHIB @14
+== BC0NIRIK @15
+== BC0NIRIK @16
+== BC0NIRIK @17
+== L#URCHIB @18
+== BC0NIRIK @19
+== L#URCHIB @20
+== BC0NIRIK @21
+EXIT

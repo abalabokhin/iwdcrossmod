@@ -13,8 +13,8 @@ CHAIN IF WEIGHT #-1 ~IsGabber(Myself) IsGabber("O#TERI") See("O#TERI") CombatCou
 @7
 DO ~SetGlobal("CassiaTeriBanter","GLOBAL",6)~
 ==BO#TERI @8
-==BO#TERI ~Can you control it? Like a third hand?~
-~...I can yes.~
+==BO#TERI @9
+==AWCassB @70
 ==BO#TERI @10
 ==AWCassB @11
 ==AWCassB @12

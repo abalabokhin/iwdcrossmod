@@ -6,6 +6,7 @@ ACTION_DEFINE_ASSOCIATIVE_ARRAY cd_banters BEGIN
   awcass        => awcassb
   c0athan       => bc0athan
   c0caed        => bc0caed
+  c0guld        => bc0guld
   c0karihi      => bc0karih
   c0mmin        => bc0mmin
   c0nirik       => bc0nirik
